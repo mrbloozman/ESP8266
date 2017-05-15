@@ -2559,13 +2559,13 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </class>
 </classes>
 <parts>
-<part name="JP1" library="adafruit" deviceset="PINHD-2X4" device=""/>
+<part name="JP1" library="adafruit" deviceset="PINHD-2X4" device="" value="ESP8266"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM-1/4W-1%(PTH)" device="HORIZ" value="10k"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ"/>
 <part name="S1" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH" value="RESET"/>
 <part name="S2" library="SparkFun-Electromechanical" deviceset="SWITCH-SPDT" device="PTH" value="PROG"/>
-<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="-TO-220"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="LONGPADS"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="-TO-220" value="LM7833"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="ARDUINO_SERIAL_PROGRAM" device="LONGPADS" value="FTDI"/>
 <part name="J2" library="con-jack" deviceset="DCJ0202" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -2575,7 +2575,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED" device="3MM" value="RUN"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM-1/4W-1%(PTH)" device="HORIZ" value="75"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 </parts>

@@ -366,16 +366,17 @@ UsedLibrary="/Users/mrbloozman/external_lbrs/SparkFun-RF.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/SparkFun-Resistors.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/SparkFun-Sensors.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/adafruit.lbr"
+UsedLibrary="/Users/mrbloozman/external_lbrs/esp8266modules.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/mrbloozman.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/ota.lbr"
 UsedLibrary="/Users/mrbloozman/external_lbrs/smd-footprints.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="360 68 1112 570"
+Loc="4 79 756 581"
 State=2
 Number=0
 
 [Desktop]
-Screen="3000 1227"
+Screen="1440 900"
 Window="Win_1"
